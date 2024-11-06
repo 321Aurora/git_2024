@@ -1,44 +1,49 @@
-# Final Project
+<<<<<<< HEAD
+# GIT学习总结
 
-- 本次大作业的文件除特殊要求外都应使用合理的英文名称命名
-- 通过 pull request 的方式提交到[课程仓库](https://github.com/gdut-dynamic-x/missing-semester)，具体位置为 `_2024-finalproject` 文件夹下以你 GitHub ID 命名的文件夹
+- 首先我学习了git的概念，git是一种分布式版本控制系统，用于追踪一个团队中不同成员所做的贡献，由工作区，暂存区，本地仓库，远程仓库组成
+- 其次是git的基本用法，如`git init` `git add` `git status` `git commit` `git push`等等，运用这些指令，可以完成仓库初始化，文件追踪，文件提交，以及文件推送，这一整套流程
+=======
+# The Missing Semester of Your CS Education 
 
-## Pull Request
+Website for the [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) class!
 
-**本节通过实操考察 pull request 的掌握情况，后面三节是 pull request 包含的内容**
+[中文站点](https://missing-semester-cn.github.io)(<span style="float:right"><img src = "https://img.shields.io/badge/最近一次与英文版同步-2021--04--24-green"></span>)
 
-PR 考察分两阶段
 
-1. 第一阶段要求在11月7日21:00前开启你的 PR
-   - 值得注意的是，你不必在完成下面的内容后再开启 PR，PR 会自动跟踪你在自己分支上的修改
-   - 你的 PR 需要有合理且直观的标题和描述，不要空着，但这些内容是随时可以修改的，所以不必在开启 PR 时有过多的顾虑
-   - 你需要主动查看 PR 的合并检查项目并且解决自己可以解决的检查项目，下面介绍检查项目
-       - 你的 PR 需要至少一个 reviewer，如果你认为自己已经无事可做了，可以发送 request review 来使你的 PR 更快地合并
-       - 如果 reviewer 提出了修改意见，你需要在解决后回复，在确认完成后点击 resolved
-       - 你的修改历史必须是线性的，也就是不能出现分支间 merge
-       - 你增加的文件必须在 `_2024-finalproject` 文件夹中
-2. 第二阶段要求在11月10日21:00前完成合并
-   - 值得注意的是，在第二阶段仍然可以修改或增加你的作业内容，但建议你尽量在这之前完成
-   - 我们会在两个阶段的临界点修改其中一个检查项目，你需要在这之后再次通过所有检查项目，通过后再次 request review，如果没有问题，你的 PR 就会被合并
-   - 被修改的检查项目为：作业提交文件夹变更为 `2024-finalproject`
-   - 第二阶段不再接受新开的 PR，所以不要尝试通过重开 PR 或删除自己 Fork 的仓库来解决第二阶段提出的考验
+Contributions are most welcome! If you have edits or new content to add, please
+open an issue or submit a pull request.
 
-你可以在 MarkDown 文档中使用中文，在 PR 的描述及评论中使用中文，但**不要在 PR 的标题、commit 内容**中使用中文
+## Development
 
-PR 的标题不是一个句子，请不要在末尾加上句号，并且需要用**极其精简且具有概括性的**语言来描述你的工作；在“描述”需要较为详细地讲述你完成的工作、修改的内容等
+To build and view the site locally, run:
 
-你可以与同学讨论关于本节的内容，但后面的内容需要独立完成
+```bash
+bundle exec jekyll serve -w
+```
 
-## 自述文件
+## License
 
-**要求：** 编写一个文档，对你自己在这门课程中的学习过程做一个总结，合理使用 MarkDown 的语法，字数不限，内容不限  
-**提交：** 一个文件，名称为 README.md
+All the content in this course, including the website source code, lecture notes, exercises, and lecture videos is licensed under Attribution-NonCommercial-ShareAlike 4.0 International [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). See [here](https://missing.csail.mit.edu/license) for more information on contributions or translations.
 
-## Git 应用
+-----------------
 
-**要求：** 编写一个文档，回答下列问题，这些问题的答案都应当使用 git 命令实现  
-**提交：** 一个 MarkDown 文件和若干个图片文件，在 MarkDown 中使用有效的`相对路径`引用你的图片
+## Project Status
 
-1. 若你已经修改了部分文件、并且将其中的一部分加入了暂存区，应该如何回退这些修改，恢复到修改前最后一次提交的状态？给出至少两种不同的方式
-1. 若你已经提交了一个新版本，需要回退该版本，应该如何操作？分别给出不修改历史或修改历史的至少两种不同的方式
-1. 我们已经知道了合并分支可以使用 merge，但这不是唯一的方法，给出至少两种不同的合并分支的方式
+To contribute to this tanslation project, please book your topic by creating an issue and I will update this table accordingly to avoid rework.
+
+|  lectures   | translator  | status |
+|  ----  | ----  |----  |
+| [course-shell.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/course-shell.md)  | [@Lingfeng AI](https://github.com/hanxiaomax) | Done |
+| [shell-tools.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/shell-tools.md)  | [@Lingfeng AI](https://github.com/hanxiaomax) | Done |
+| [editors.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/editors.md)  |  [@stechu](https://github.com/stechu) | Done |
+| [data-wrangling.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/data-wrangling.md)  | [@Lingfeng AI](https://github.com/hanxiaomax) | Done |
+| [command-line.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/command-line.md)  | [@Lingfeng AI](https://github.com/hanxiaomax) | Done |
+| [version-control.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/version-control.md)  | [@Lingfeng AI](https://github.com/hanxiaomax) | Done |
+| [debugging-profiling.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/debugging-profiling.md)  |[@Lingfeng AI](https://github.com/hanxiaomax)  | Done  |
+| [metaprogramming.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/metaprogramming.md)  | [@Lingfeng AI](https://github.com/hanxiaomax) | Done |
+| [security.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/security.md)  | [@catcarbon](https://github.com/catcarbon) | Done |
+| [potpourri.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/potpourri.md) |  [@catcarbon](https://github.com/catcarbon) | Done |
+| [qa.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/qa.md) | [@AA1HSHH](https://github.com/AA1HSHH) | Done |
+| [about.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/about.md)  | [@Binlogo](https://github.com/Binlogo)  | Done |
+>>>>>>> 982af8ccbfb8a32df72e8cd693b6677fcba67875
