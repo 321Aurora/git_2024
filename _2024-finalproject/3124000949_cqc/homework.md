@@ -18,3 +18,19 @@
 ## 2.使用git rebase +想要合并的分支名 ，使用这个时需要在master上 
 
 因为做这个作业的时候截图坏掉了，只能拍屏，不好意思。
+
+![1](photo/1.jpg)
+  
+![2-1](photo/2-1.jpg)
+  
+![2-2](photo/2-2.jpg)
+  
+![2-3](photo/2-3.jpg)
+  
+![2-4](photo/2-4.jpg)
+
+![2-5](photo/2-5.jpg)
+
+![3-1](photo/3-1.jpg)
+
+![3-2](photo/3-2.jpg)
