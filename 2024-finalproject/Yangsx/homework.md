@@ -7,9 +7,9 @@
 **学习了Ubuntu操作系统终端上常用的语法**
 
 ##Git
-**学习如何提交pull request 以及如何使用git
+**学习如何提交pull request 以及如何使用git**
 
 ##cmake 和 catkin
-**学习了如何创建catkin工作空间
+**学习了如何创建catkin工作空间**
 
 
